@@ -1,0 +1,145 @@
+
+/* I have sorted the different div in different columns */
+
+
+body {
+    background: linear-gradient(to right, #eecda3, #ef629f, #a8c0ff, #3f2b96);
+}
+
+.container-title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin: 0 30px;
+    gap: 50px;
+}
+
+/* -----------------------------form----------------------------- */
+
+.form {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.form input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* -----------------------------table----------------------------- */
+
+.table {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-height: 400px; /* Set a fixed height */
+    overflow-y: auto;  /* Enable vertical scroll */
+    border: 1px solid #ddd;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    margin: 0 30px;
+}
+
+/* -----------------------------form input----------------------------- */
+.form input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.form input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* -----------------------------table header----------------------------- */
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+}
+
+/* Table Rows */
+.table .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.table button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
