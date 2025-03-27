@@ -2,4 +2,4 @@
 
 Basic student registration system used with the help of html, css, js
 
-Link: 
+Link: https://priyansh159.github.io/student-registration-system/
